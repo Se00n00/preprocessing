@@ -1,0 +1,16 @@
+<div class="relative flex flex-col justify-center items-center mb-10 m-10 text-justify md:text-left">
+
+    <img src="notfound/error_notfound.svg" alt="">
+    <p class="text-4xl font-bold text-black/[0.5] mb-5">404! Page Not Found</p>
+    <ul class="flex flex-wrap items-center mt-3 text-sm font-medium text-gray-900 dark:text-black/[0.4] sm:mt-0">
+        <li>
+            <a [routerLink]="['']" class="hover:underline me-4 md:me-6">Home</a>
+        </li>
+        <li>
+            <a  [routerLink]="['/about']" class="hover:underline me-4 md:me-6">About</a>
+        </li>
+        <li>
+            <a  [routerLink]="['/license']"  class="hover:underline me-4 md:me-6">Licensing</a>
+        </li>
+    </ul>
+</div>
